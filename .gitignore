@@ -1,0 +1,35 @@
+# Node.js (React) related
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+build/
+*.env
+
+# Django (Backend) related
+# Virtual environments
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Django settings, database, and migrations (optional)
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Ignore migrations if you don't want to track them (optional)
+# migrations/
+
+# Django secret keys (if any in the settings)
+settings.py
+.env
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# System files
+Thumbs.db
+.DS_Store
